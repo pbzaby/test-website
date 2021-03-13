@@ -1,3 +1,5 @@
+# https://github.com/fongandrew/hydeout/blob/gh-pages/_config.yml
+
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
@@ -7,7 +9,7 @@ title:            Test Website
 tagline:          'A Jekyll theme'
 description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
 url:              https://cath7.github.io/test-website
-baseurl:          '/'
+baseurl:          '/test-website'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -23,12 +25,29 @@ paginate:         5
                     # Or '/blog/page:num' if you want to move your index pages
 
 #theme: minima
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
 remote_theme: cath7/hydeout
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - .gitignore
+
+permalink: /:year/:month/:day/:title.html
+
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      excerpt_separator:  <!--more-->
+      layout: post
 
 # Sidebar link settings
 sidebar_home_link:  true
