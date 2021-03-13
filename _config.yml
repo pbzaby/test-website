@@ -23,7 +23,7 @@ paginate:         5
                     # Or '/blog/page:num' if you want to move your index pages
 
 #theme: minima
-#theme: jekyll-theme-hydeout
+theme: jekyll-theme-hydeout
 remote_theme: cath7/hydeout
 plugins:
   - jekyll-feed
