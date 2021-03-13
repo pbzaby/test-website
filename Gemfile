@@ -23,7 +23,7 @@ group :jekyll_plugins do
 
   gem "jekyll-gist", "~> 1.4"
   gem "jekyll-paginate", "~> 1.1"
-  gem "jekyll-theme-hydeout", "~> 3.4"  
+  #gem "jekyll-theme-hydeout", "~> 3.4"  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
