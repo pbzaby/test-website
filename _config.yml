@@ -39,7 +39,7 @@ exclude:
   - README.md
   - .gitignore
 
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title:output_ext
 
 defaults:
   - scope:
