@@ -1,8 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!!!"
-date:   2021-03-12 16:20:35 -0600
-categories: jekyll update
+title:  "Welcome to Jekyll!!"
+#date:   2021-03-12 16:20:35 -0600
+#categories: jekyll update
+categories:
+  - Edge Case
+tags:
+  - content
+  - css
+  - edge case
+  - lists
+  - markup
+#last_modified_at: 2017-03-09T14:25:52-05:00
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
