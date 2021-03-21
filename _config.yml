@@ -5,9 +5,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Test Website
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+title:            Amod
+tagline:          'A little experiment'
+description:      'Based on the <a href="http://jekyllrb.com" target="_blank">Jekyll</a> static website framework.'
 url:              https://cath7.github.io/test-website
 baseurl:          '/test-website'
                   # the optional subpath of your site, e.g. "/blog"
